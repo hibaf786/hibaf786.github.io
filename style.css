@@ -15,6 +15,12 @@ h2 {
   margin-top: 0;
 }
 
+img {
+  max-width: 100px;
+  height: auto;
+
+}
+
 header,
 nav,
 footer {
