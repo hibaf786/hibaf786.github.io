@@ -15,10 +15,16 @@ h2 {
   margin-top: 0;
 }
 
-img {
-  max-width: 100px;
-  height: auto;
+figure {
+  margin: 32px 0 0 0;
+  overflow: auto;
+  clear: both;
+}
 
+figure img {
+  border: 1px solid #222;
+  float: left;
+  margin-right: 16px;
 }
 
 header,
