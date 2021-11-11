@@ -1,7 +1,9 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+}
 
+main {
   max-width: 960px;
   margin: 20px auto;
   display: grid;
@@ -29,13 +31,11 @@ section {
   padding: 20px;
 }
 
-section p {
-  margin-bottom: 0;
-}
 
 header {
   grid-column: 1 / 3;
 }
+
 
 nav {
   grid-row: 2 / 4;
