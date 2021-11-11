@@ -7,10 +7,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
-  grid-template-areas:
-    "header header"
-    "nav    main"
-    "nav    footer";
 }
 
 h2 {
@@ -38,17 +34,13 @@ section p {
 }
 
 header {
-  grid-area: header;
+  grid-column: 1 / 3;
 }
 
 nav {
-  grid-area: nav;
-}
-
-main {
-  grid-area: main;
+  grid-row: 2 / 4;
 }
 
 footer {
-  grid-area: footer;
+  grid-column: 2 / 3;
 }
