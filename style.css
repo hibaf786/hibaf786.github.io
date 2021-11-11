@@ -16,15 +16,19 @@ h2 {
 }
 
 figure {
-  margin: 32px 0 0 0;
-  overflow: auto;
-  clear: both;
+  border: 1px solid #555;
+  margin: 0;
+  padding: 20px 20px 30px 20px;
+  width: 350px;
 }
 
-figure img {
-  border: 1px solid #222;
-  float: left;
-  margin-right: 16px;
+img {
+  border: 1px solid #555;
+}
+
+figcaption {
+  font-family: "Shadows Into Light", "Courier New", monospace;
+  text-align: right;
 }
 
 header,
