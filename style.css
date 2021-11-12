@@ -10,7 +10,6 @@ body {
 }
 
 .first {
-  font-weight: normal;
   border: 1px normal rgb(128, 0, 0); 
   padding-left: 16px;
   background-color: rgba(255, 0, 0, 0.3)
