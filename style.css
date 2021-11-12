@@ -5,9 +5,9 @@ body {
 
 .first {
   font-weight: normal;
-  color: rgb(69,105,159);
-  border: 1px dashed rgb(0,0,255); /* blue */
+  color: rgb(0, 191, 255);
+  border: 1px dashed rgb(128, 0, 0); 
   padding-left: 16px;
-  background-color: rgb(231,209,75);
+  background-color: rgb(192, 192, 192);
 }
 
