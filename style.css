@@ -83,20 +83,14 @@ tr:hover{
 	background-color: rgb(255, 0, 0);
 }
 
+ul > li {
+	list-style-type: circle;
+}
 
 #introduction {
   /*grid-area: introduction;*/
   grid-column: 2;
   grid-row: 2;
-}
-
-.first {
-  border: 1px normal rgb(128, 0, 0); 
-  padding-left: 16px;
-}
-
-ul > li {
-	list-style-type: circle;
 }
 
 #name{
@@ -142,5 +136,10 @@ ul > li {
 #footer{
 	grid-column: 4;
 	grid-row: 3;
+}
+
+.first {
+  border: 1px normal rgb(128, 0, 0); 
+  padding-left: 16px;
 }
 
