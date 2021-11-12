@@ -112,6 +112,7 @@ ul > li {
 
 #introduction h2 + p{
   padding: 10px 20px;
+  margin: 20px;
 }
 
 #map{
