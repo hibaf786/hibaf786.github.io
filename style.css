@@ -85,7 +85,6 @@ tr:hover{
 
 
 #introduction {
-  border: 1px normal rgb(69,105,159);
   /*grid-area: introduction;*/
   grid-column: 2/3;
   grid-row: 2/3;
