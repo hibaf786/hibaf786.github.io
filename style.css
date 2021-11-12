@@ -6,12 +6,12 @@ body {
 
 h1{
 	font-family: "Helvetica", "Arial", sans-serif;
-	font-size; 30px;
+	font-size; 25px;
 }
 
 h2{
 	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
-	font-size; 22px;
+	font-size; 20px;
 }
 
 h3, h4{
@@ -20,7 +20,12 @@ h3, h4{
 }
 
 p {
-	letter-spacing: 2px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+	letter-spacing: 1.5px;
 }
 
 a:link{
@@ -42,7 +47,7 @@ a:active {
 figcaption{
 	text-decoration: underline;
 	font-family: "Helvetica", "Arial", sans-serif;
-	text-align: right;
+	text-align: left;
 }
 
 #introduction {
