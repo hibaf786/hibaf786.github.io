@@ -69,8 +69,16 @@ a:active {
 }
 
 table {
-	border: 1px rgb(255, 0, 0);
-	width: 80%;
+	width: 100%;
+}
+
+th{
+	height: 70px;
+	text-align: left;
+}
+
+td{
+	height: 50px;
 }
 
 
