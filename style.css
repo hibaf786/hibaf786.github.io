@@ -1,27 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Roboto&display=swap');
+
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   background-color: rgb(240, 248, 255)
 }
 
 h1{
-	font-family: "Helvetica", "Arial", sans-serif;
 	font-size; 25px;
 }
 
 h2{
-	font-family: "Consolas", "Monaco", monospace;
 	font-size; 20px;
 }
 
-h3, h4{
-	font-family: "Helvetica", "Arial", sans-serif;
+h3{
 	font-size; 18px;
 }
 
-p {
-	font-family: "Times New Roman", "Big Caslon", serif;
+h4{
 	font-size: 16px;
+}
+
+p {
+	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
+	font-size: 14px;
 	letter-spacing: 1.5px;
 }
 
