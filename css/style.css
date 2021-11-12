@@ -112,7 +112,7 @@ ul > li {
 
 #introduction h2 + p{
   padding: 10px 20px;
-  margin: 20px;
+  margin: 5px;
 }
 
 #map{
@@ -133,5 +133,5 @@ ul > li {
 
 .first {
   padding-left: 15px;
-  margin-left: 5px;
+  margin: 10px;
 }
