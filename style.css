@@ -137,6 +137,7 @@ ul > li {
 #footer{
 	grid-column: 4;
 	grid-row: 3;
+	overflow: scroll;
 }
 
 .first {
