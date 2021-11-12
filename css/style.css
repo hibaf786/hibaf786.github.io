@@ -6,3 +6,27 @@ main {
 	"flag introduction map"
 	"geography people government";
 }
+
+#flag{
+	grid-area: flag;
+}
+
+#introduction {
+  grid-area: introduction;
+}
+
+#map{
+	grid-area: map;
+}
+
+#geography{
+	grid-area: geography;
+}
+
+#people{
+	grid-area: people;
+}
+
+#government{
+	grid-area: government;
+}
