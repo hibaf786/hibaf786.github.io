@@ -75,7 +75,7 @@ table {
 th{
 	height: 50px;
 	text-align: left;
-	background-color: #04AA6D;
+	background-color: rgb(192, 192, 192);
 }
 
 td{
