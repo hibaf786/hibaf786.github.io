@@ -19,9 +19,6 @@ main {
   margin-left: 10px;
 }
 
-/*nav{
-	grid-area: nav;
-}*/
 
 h1,
 h2 {
@@ -103,6 +100,10 @@ ul > li {
 /*#name{
 	grid-area: spain;
 }*/
+
+#nav{
+	grid-area: nav;
+}
 
 #flag{
 	grid-area: flag;
