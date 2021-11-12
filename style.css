@@ -33,6 +33,15 @@ p {
 	line-height: 1.35;
 }
 
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+}
+
+figure{
+	margin: 0;
+}
+
 
 a:link{
 	color: rgb(0, 0, 255);
