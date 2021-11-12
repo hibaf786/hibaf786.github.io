@@ -87,11 +87,6 @@ ul > li {
 	list-style-type: circle;
 }
 
-#introduction {
-  /*grid-area: introduction;*/
-  grid-column: 2;
-  grid-row: 2;
-}
 
 #name{
 	/*grid-area: spain;*/
@@ -102,13 +97,18 @@ ul > li {
 	/*grid-area: nav;*/
 	grid-column: 1;
 	grid-row: 1;
-	overflow: scroll;
 }
 
 #flag{
 	/*grid-area: flag;*/
 	grid-column: 2;
 	grid-row: 3;
+}
+
+#introduction {
+  /*grid-area: introduction;*/
+  grid-column: 2;
+  grid-row: 2;
 }
 
 #map{
@@ -137,8 +137,7 @@ ul > li {
 
 #footer{
 	grid-column: 4;
-	grid-row: 1 / span 3;
-	overflow: scroll;
+	grid-row: 1;
 }
 
 .first {
