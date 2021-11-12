@@ -44,6 +44,7 @@ p {
 	white-space: normal;
 	overflow: scroll;
 	letter-spacing: 2px;
+	margin: 0;
 }
 
 figure{
@@ -117,7 +118,6 @@ time{
 
 #introduction h2 + p{
   padding: 10px 20px;
-  margin: 5px;
 }
 
 #map{
@@ -138,5 +138,4 @@ time{
 
 .first {
   padding-left: 15px;
-  margin: 5px;
 }
