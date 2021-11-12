@@ -19,6 +19,6 @@ ul > li {
 	list-style-type: square;
 }
 
-#geography h4 ~ p{
+#geography h3 + h4 + p{
 	font-weight: bold;
 }
