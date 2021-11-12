@@ -101,6 +101,7 @@ ul > li {
 #nav{
 	/*grid-area: nav;*/
 	grid-column: 1;
+	overflow: scroll;
 }
 
 #flag{
