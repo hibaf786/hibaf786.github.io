@@ -28,6 +28,11 @@ h2 {
 	font-weight: 900;
 }
 
+h2,
+h3{
+	border-bottom: 1px solid rgb(255, 0, 0);
+}
+
 p {
 	max-width: 960px;
 	line-height: 1.35;
