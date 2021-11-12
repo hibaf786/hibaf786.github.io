@@ -4,28 +4,17 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   background-color: rgb(240, 248, 255)
+  font-size: 18px;
 }
 
-h1{
-	font-size; 25px;
-}
-
-h2{
-	font-size; 20px;
-}
-
-h3{
-	font-size; 18px;
-}
-
-h4{
-	font-size: 16px;
+h1,
+h2 {
+	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
+	font-weight: 900;
 }
 
 p {
-	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
-	font-size: 14px;
-	letter-spacing: 1.5px;
+	line-height: 1.35;
 }
 
 
@@ -39,6 +28,7 @@ a:visited {
 
 a:hover {
 	color: rgb(255, 0, 0);
+	text-decoration: underline;
 }
 
 a:active {
