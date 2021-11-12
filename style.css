@@ -27,6 +27,7 @@ h2 {
 
 p {
 	line-height: 1.35;
+	overflow: scroll;
 }
 
 figcaption {
