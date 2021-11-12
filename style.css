@@ -19,6 +19,6 @@ ul > li {
 	list-style-type: square;
 }
 
-#gpvernment h3 + h4 ~ p{
+#gpvernment h3 + h4 + p{
 	font-weight: bold;
 }
