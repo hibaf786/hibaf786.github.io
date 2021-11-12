@@ -2,14 +2,13 @@
 
 body {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 100px 100px;
-	grid-auto-rows: 300px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 200px);
 	grid-gap: 20px;
-	grid-template-areas: 
+	/*grid-template-areas: 
 	"nav spain spain"
 	"flag introduction map"
-	"geography people government"
+	"geography people government" */
 }
 
 main {
@@ -87,7 +86,9 @@ tr:hover{
 
 #introduction {
   border: 1px normal rgb(69,105,159);
-  grid-area: introduction;
+  /*grid-area: introduction;*/
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .first {
@@ -99,31 +100,43 @@ ul > li {
 	list-style-type: circle;
 }
 
-/*#name{
-	grid-area: spain;
-}*/
+#name{
+	/*grid-area: spain;*/
+	grid-column: 2 / 4;
+}
 
 #nav{
-	grid-area: nav;
+	/*grid-area: nav;*/
+	grid-column: 1 / 2;
 }
 
 #flag{
-	grid-area: flag;
+	/*grid-area: flag;*/
+	grid-column: 1/2;
+	grid-row: 2/3;
 }
 
 #map{
-	grid-area: map;
+	/*grid-area: map;*/
+	grid-column: 3/4;
+	grid-row: 2/3;
 }
 
 #geography{
-	grid-area: geography;
+	/*grid-area: geography;*/
+	grid-column: 1/2;
+	grid-row: 3/4;
 }
 
 #people{
-	grid-area: people;
+	/*grid-area: people;*/
+	grid-column: 2/3;
+	grid-row: 3/4;
 }
 
 #government{
-	grid-area: government;
+	/*grid-area: government;*/
+	grid-column: 3/4;
+	grid-row: 3/4;
 }
 
