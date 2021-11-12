@@ -69,7 +69,7 @@ a:active {
 }
 
 table {
-	border: 1px;
+	border: 1px rgb(255, 0, 0);
 	width: 80%;
 }
 
