@@ -6,8 +6,9 @@ body {
   background-color: rgb(240, 248, 255);
   font-size: 16px;
   margin-top: 0;
-  margin-left: 20px;
+  margin-left: 10px;
   max-width: 960px;
+  padding-left: 15px;
 }
 
 main {
@@ -113,6 +114,5 @@ ul > li {
 
 .first {
   border: 1px normal rgb(128, 0, 0); 
-  padding-left: 16px;
 }
 
