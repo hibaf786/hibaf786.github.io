@@ -3,64 +3,6 @@ body {
   line-height: 1.5;
 }
 
-main {
-  max-width: 960px;
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 20px;
-}
-
-h2 {
-  margin-top: 0;
-} 
-
-h3 {
-  color: rgb(69,105,159); 
-}
-
-figure {
-  border: 1px solid #555;
-  margin: 0;
-  padding: 20px 20px 30px 20px;
-  width: 350px;
-}
-
-img {
-  border: 1px solid #555;
-}
-
-figcaption {
-  font-family: "Shadows Into Light", "Courier New", monospace;
-  text-align: right;
-}
-
-header,
-nav,
-footer {
-  background-color: #eee;
-}
-
-header,
-footer {
-  padding-left: 20px;
-}
-
-section {
-  background-color: #ddd;
-  padding: 20px;
-}
-
-
-header {
-  grid-column: 1 / 3;
-}
-
-
-nav {
-  grid-row: 2 / 4;
-}
-
-footer {
-  grid-column: 2 / 3;
+.first {
+  font-weight: bold;
 }
