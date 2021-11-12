@@ -5,7 +5,7 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"nav spain ."
+	"nav spain something"
 	"flag introduction map"
 	"geography people government"
 }
