@@ -13,11 +13,14 @@ main{
 	display: grid;
 	grid-template-columns: repeat(3, 300px);
 	grid-template-areas: 
-	"Nav Spain ."
+	"nav spain ."
 	"flag introduction map"
 	"geography people government"
 }
 
+nav{
+	grid-area: nav;
+}
 h1{
 	grid-area: Spain;
 }
