@@ -103,6 +103,10 @@ ul > li {
 	list-style-type: circle;
 }
 
+time{
+	font-style: italic;
+}
+
 #flag{
 	grid-area: flag;
 }
