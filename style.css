@@ -9,14 +9,23 @@ body {
   margin-left: 10px;
 }
 
-main {
+body {
 	max-width: 960px;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
+	"navigation spain spain"
 	"flag introduction map"
 	"geography people government" 
+}
+
+nav{
+	grid-area: navigation;
+}
+
+header{
+	grid-area: spain;
 }
 
 h1,
