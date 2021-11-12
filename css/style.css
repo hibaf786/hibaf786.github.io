@@ -96,7 +96,7 @@ ul > li {
   grid-area: introduction;
 }
 
-#introduction + p{
+#introduction ~ p{
   padding-left: 15px;
   margin-left: 5px;
 }
