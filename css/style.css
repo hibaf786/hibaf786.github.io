@@ -31,17 +31,18 @@ p {
 	overflow: scroll;
 }
 
+figure{
+	margin: 1px;
+	padding: 20px 20px 30px 20px;
+ 	width: 350px;
+ 	overflow: scroll;
+}
+
 figcaption {
   font-size: 14px;
   font-style: italic;
   text-decoration: underline;
   text-align: left;
-}
-
-figure{
-	margin: 1px;
-	padding: 20px 20px 30px 20px;
- 	width: 350px;
 }
 
 img {
