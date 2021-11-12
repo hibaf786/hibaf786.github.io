@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+  background-color: rgb(240, 248, 255)
 }
 
 #introduction {
@@ -12,6 +13,6 @@ body {
   font-weight: normal;
   border: 1px normal rgb(128, 0, 0); 
   padding-left: 16px;
-  background-color: rgb(240, 248, 255);
+  background-color: rgb(255, 0, 0);
 }
 
