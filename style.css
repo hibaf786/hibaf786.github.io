@@ -2,8 +2,8 @@
 
 body {
 	display: grid;
-	grid-template-columns: repeat(4, 2fr);
-	grid-template-rows: repeat(3, 200px);
+	grid-template-columns: repeat(3, 2fr);
+	grid-template-rows: repeat(4, 200px);
 	grid-gap: 20px;
 	/*grid-template-areas: 
 	"nav spain spain"
@@ -101,21 +101,20 @@ ul > li {
 
 #flag{
 	/*grid-area: flag;*/
-	grid-column: 2;
-	grid-row: 3;
+	grid-column: 3;
+	grid-row: 2;
 }
 
 #introduction {
   /*grid-area: introduction;*/
   grid-column: 2;
   grid-row: 2;
-  overflow: scroll;
 }
 
 #map{
 	/*grid-area: map;*/
-	grid-column: 2;
-	grid-row: 1;
+	grid-column: 1;
+	grid-row: 2;
 }
 
 #geography{
@@ -126,19 +125,19 @@ ul > li {
 
 #people{
 	/*grid-area: people;*/
-	grid-column: 3;
-	grid-row: 2;
+	grid-column: 2;
+	grid-row: 3;
 }
 
 #government{
 	/*grid-area: government;*/
-	grid-column: 3;
-	grid-row: 1;
+	grid-column: 1;
+	grid-row: 3;
 }
 
 #footer{
-	grid-column: 4;
-	grid-row: 1;
+	grid-column: 1;
+	grid-row: 4;
 }
 
 .first {
