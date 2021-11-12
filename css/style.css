@@ -20,6 +20,7 @@ main {
 
 h1{
 	border-bottom: 1px solid rgb(255, 0, 0);
+	text-shadow: .2em .2em silver;
 }
 
 h1,
