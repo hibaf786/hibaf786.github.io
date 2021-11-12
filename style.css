@@ -5,12 +5,12 @@ body {
 }
 
 h1{
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Consolas", "Monaco", monospace;
 	font-size; 25px;
 }
 
 h2{
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Papyrus", fantasy;
 	font-size; 20px;
 }
 
@@ -60,6 +60,6 @@ figcaption{
 }
 
 ul > li {
-	list-style-type: square;
+	list-style-type: circle;
 }
 
