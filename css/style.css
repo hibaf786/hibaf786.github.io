@@ -18,6 +18,74 @@ main {
 	"geography people government";
 }
 
+h1,
+h2 {
+	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.35;
+	white-space: normal;
+	overflow: scroll;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: left;
+}
+
+figure{
+	margin: 1px;
+	padding: 20px 20px 30px 20px;
+ 	width: 350px;
+}
+
+img {
+  border: 2px solid #555;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+}
+
+a:link{
+	color: rgb(0, 0, 255);
+}
+
+a:visited {
+	color: rgb(128, 0, 128);
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}
+
+a:active {
+	color: rgb(255, 255, 0);
+}
+
+table {
+	width: 100%;
+}
+
+th, td{
+	height: 30px;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0.3);
+	padding: 15px;
+}
+
+tr:hover{
+	background-color: rgb(255, 0, 0);
+}
+
+ul > li {
+	list-style-type: circle;
+}
+
 #flag{
 	grid-area: flag;
 }
@@ -40,4 +108,9 @@ main {
 
 #government{
 	grid-area: government;
+}
+
+.first {
+  border: 1px rgb(128, 0, 0); 
+  padding-left: 15px;
 }
