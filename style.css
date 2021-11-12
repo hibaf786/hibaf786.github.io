@@ -19,9 +19,9 @@ main {
   margin-left: 10px;
 }
 
-nav{
+/*nav{
 	grid-area: nav;
-}
+}*/
 
 h1,
 h2 {
@@ -100,9 +100,9 @@ ul > li {
 	list-style-type: circle;
 }
 
-#name{
+/*#name{
 	grid-area: spain;
-}
+}*/
 
 #flag{
 	grid-area: flag;
