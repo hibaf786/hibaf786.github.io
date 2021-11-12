@@ -72,15 +72,15 @@ table {
 	width: 100%;
 }
 
-th{
+th, td{
 	height: 50px;
 	text-align: left;
 	background-color: rgb(192, 192, 192);
+	padding: 15px;
 }
 
-td{
-	height: 30px;
-	background-color: rgb(192, 192, 192);
+tr:hover{
+	background-color: rgb(255, 0, 0);
 }
 
 
