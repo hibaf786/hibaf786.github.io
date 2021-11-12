@@ -69,7 +69,8 @@ a:active {
 }
 
 table {
-	border-collapse: collapse;
+	border: 1px;
+	width: 80%;
 }
 
 
