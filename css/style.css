@@ -19,7 +19,7 @@ main {
 }
 
 header{
-	border-bottom: 1px rgb(128, 0, 0);
+	border-bottom: 1px #FF0000;
 }
 
 h1,
