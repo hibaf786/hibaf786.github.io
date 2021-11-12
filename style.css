@@ -19,6 +19,11 @@ main {
 	"geography people government";
 }
 
+header{
+	position: fixed;
+	float: left;
+}
+
 h1,
 h2 {
 	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
