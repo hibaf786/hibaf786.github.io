@@ -18,6 +18,10 @@ main {
 	"geography people government";
 }
 
+header{
+	border-bottom: 1px solid orange;
+}
+
 h1,
 h2 {
 	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
@@ -98,7 +102,6 @@ ul > li {
 
 #introduction h2 + p{
   padding-left: 10px;
-  border-bottom: 1px solid orange;
 }
 
 #map{
