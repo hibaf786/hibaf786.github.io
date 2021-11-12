@@ -139,3 +139,8 @@ ul > li {
 	grid-row: 3;
 }
 
+#footer{
+	grid-column: 4;
+	grid-row: 3;
+}
+
