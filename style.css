@@ -98,7 +98,7 @@ ul > li {
 }
 
 #geography{
-	grid-area: government;
+	grid-area: geography;
 }
 
 #people{
@@ -106,7 +106,7 @@ ul > li {
 }
 
 #government{
-	grid-area: geography;
+	grid-area: government;
 }
 
 .first {
