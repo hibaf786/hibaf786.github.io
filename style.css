@@ -3,10 +3,9 @@
 body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"nav spain something"
+	"nav spain spain"
 	"flag introduction map"
 	"geography people government"
 }
