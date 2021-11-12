@@ -7,10 +7,10 @@ body {
   font-size: 16px;
   margin-top: 0;
   margin-left: 10px;
+  max-width: 960px;
 }
 
 main {
-	max-width: 960px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
