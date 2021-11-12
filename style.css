@@ -4,8 +4,8 @@ body {
 }
 
 #introduction {
-  background-color: rgba(69,105,159,0.15); /* lt blue */
-  border: 1px dashed rgb(69,105,159); /* blue */
+  background-color: rgba(240, 248, 255); 
+  border: 1px dashed rgb(28, 0, 0); /* blue */
 }
 
 .first {
