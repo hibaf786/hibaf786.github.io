@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Roboto&display=swap');
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  background-color: rgb(240, 248, 255);
+  font-size: 16px;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+main {
+	max-width: 960px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	grid-template-areas: 
+	"flag introduction map"
+	"geography people government" 
+}
+
+h1,
+h2 {
+	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.35;
+	white-space: normal;
+	overflow: scroll;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: left;
+}
+
+figure{
+	margin: 1px;
+	padding: 20px 20px 30px 20px;
+ 	width: 350px;
+}
+
+img {
+  border: 2px solid #555;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+}
+
+a:link{
+	color: rgb(0, 0, 255);
+}
+
+a:visited {
+	color: rgb(128, 0, 128);
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}
+
+a:active {
+	color: rgb(255, 255, 0);
+}
+
+table {
+	width: 100%;
+}
+
+th, td{
+	height: 30px;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0.3);
+	padding: 15px;
+}
+
+tr:hover{
+	background-color: rgb(255, 0, 0);
+}
+
+ul > li {
+	list-style-type: circle;
+}
+
+#flag{
+	grid-area: flag;
+}
+
+#introduction {
+  grid-area: introduction;
+}
+
+#map{
+	grid-area: map;
+}
+
+#geography{
+	grid-area: geography;
+}
+
+#people{
+	grid-area: people;
+}
+
+#government{
+	grid-area: government;
+}
+
+.first {
+  border: 1px normal rgb(128, 0, 0); 
+  padding-left: 16px;
+}
+
