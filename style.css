@@ -12,6 +12,7 @@ body {
 body {
 	max-width: 960px;
 	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
 	"flag introduction map"
