@@ -10,8 +10,8 @@ body {
 
 .first {
   font-weight: normal;
-  border: 1px dashed rgb(128, 0, 0); 
+  border: 1px normal rgb(128, 0, 0); 
   padding-left: 16px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(240, 248, 255);
 }
 
