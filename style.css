@@ -4,6 +4,47 @@ body {
   background-color: rgb(240, 248, 255)
 }
 
+h1{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size; 30px;
+}
+
+h2{
+	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-size; 22px;
+}
+
+h3, h4{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size; 18px;
+}
+
+p {
+	letter-spacing: 2px;
+}
+
+a:link{
+	color: rgb(0, 0, 255);
+}
+
+a:visited {
+	color: rgb(128, 0, 128);
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+}
+
+a:active {
+	color: rgb(255, 255, 0);
+}
+
+figcaption{
+	text-decoration: underline;
+	font-family: "Helvetica", "Arial", sans-serif;
+	text-align: right;
+}
+
 #introduction {
   background-color: rgba(248, 248, 255, 0.9); 
   border: 1px normal rgb(69,105,159);
