@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Roboto&display=swap');
 
 body {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(4, 200px);
-	grid-gap: 20px;
-	/*grid-template-areas: 
-	"nav spain spain"
-	"flag introduction map"
-	"geography people government" */
-}
-
-main {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   background-color: rgb(240, 248, 255);
@@ -20,6 +9,15 @@ main {
   margin-left: 10px;
 }
 
+main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	grid-template-areas: 
+	"nav spain footer"
+	"flag introduction map"
+	"geography people government" 
+}
 
 h1,
 h2 {
@@ -89,55 +87,39 @@ ul > li {
 
 
 #name{
-	/*grid-area: spain;*/
-	grid-column: 2;
+	grid-area: spain;	
 }
 
 #nav{
-	/*grid-area: nav;*/
-	grid-column: 1;
-	grid-row: 1;
+	grid-area: nav;
 }
 
 #flag{
-	/*grid-area: flag;*/
-	grid-column: 3;
-	grid-row: 2;
+	grid-area: flag;
 }
 
 #introduction {
-  /*grid-area: introduction;*/
-  grid-column: 2;
-  grid-row: 2;
+  grid-area: introduction;
 }
 
 #map{
-	/*grid-area: map;*/
-	grid-column: 1;
-	grid-row: 2;
+	grid-area: map;
 }
 
 #geography{
-	/*grid-area: geography;*/
-	grid-column: 3;
-	grid-row: 3;
+	grid-area: geography;
 }
 
 #people{
-	/*grid-area: people;*/
-	grid-column: 2;
-	grid-row: 3;
+	grid-area: people;
 }
 
 #government{
-	/*grid-area: government;*/
-	grid-column: 1;
-	grid-row: 3;
+	grid-area: government;
 }
 
 #footer{
-	grid-column: 1;
-	grid-row: 4;
+	grid-area: footer;
 }
 
 .first {
