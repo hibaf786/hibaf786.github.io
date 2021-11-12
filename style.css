@@ -19,6 +19,6 @@ ul > li {
 	list-style-type: square;
 }
 
-#government h3 + h4 + p {
+#government h3 > h4  {
 	font-weight: bold;
 }
