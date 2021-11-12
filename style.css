@@ -3,9 +3,13 @@ body {
   line-height: 1.5;
 }
 
+#introduction {
+  background-color: rgba(69,105,159,0.15); /* lt blue */
+  border: 1px dashed rgb(69,105,159); /* blue */
+}
+
 .first {
   font-weight: normal;
-  color: rgb(255, 0, 0);
   border: 1px dashed rgb(128, 0, 0); 
   padding-left: 16px;
   background-color: rgb(192, 192, 192);
