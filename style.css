@@ -21,9 +21,6 @@ main{
 nav{
 	grid-area: nav;
 }
-h1{
-	grid-area: Spain;
-}
 
 h1,
 h2 {
@@ -73,6 +70,18 @@ figcaption{
 
 ul > li {
 	list-style-type: circle;
+}
+
+#spain{
+	grid-area: spain;
+}
+
+#flag{
+	grid-area: flag;
+}
+
+#map{
+	grid-area: map;
 }
 
 #geography{
