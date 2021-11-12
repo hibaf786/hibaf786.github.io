@@ -101,6 +101,7 @@ ul > li {
 #nav{
 	/*grid-area: nav;*/
 	grid-column: 1;
+	grid-row: 1;
 	overflow: scroll;
 }
 
