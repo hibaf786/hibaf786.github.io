@@ -17,14 +17,18 @@ main {
 	grid-template-areas: 
 	"flag introduction map"
 	"geography people government";
-	padding-left: 15px;
-
 }
 
 h1,
 h2 {
 	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
 	font-weight: 900;
+}
+
+h1,
+h2,
+h3{
+	padding-left: 15px;
 }
 
 p {
@@ -115,5 +119,6 @@ ul > li {
 
 .first {
   border: 1px normal rgb(128, 0, 0); 
+  padding-left: 15px;
 }
 
