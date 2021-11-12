@@ -6,3 +6,7 @@ body {
 .first {
   font-weight: normal;
 }
+
+.second {
+	font-weight: bold;
+}
