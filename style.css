@@ -9,6 +9,19 @@ body {
   margin-left: 0;
 }
 
+main{
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-template-areas: 
+	"Nav Spain ."
+	"flag introduction map"
+	"geography people government"
+}
+
+h1{
+	grid-area: Spain;
+}
+
 h1,
 h2 {
 	font-family: "Catamaran", "Times New Roman", "Big Caslon", serif;
@@ -46,6 +59,7 @@ figcaption{
 #introduction {
   background-color: rgba(248, 248, 255, 0.9); 
   border: 1px normal rgb(69,105,159);
+  grid-area: introduction;
 }
 
 .first {
@@ -56,5 +70,17 @@ figcaption{
 
 ul > li {
 	list-style-type: circle;
+}
+
+#geography{
+	grid-area: geography;
+}
+
+#people{
+	grid-area: people;
+}
+
+#government{
+	grid-area: government;
 }
 
