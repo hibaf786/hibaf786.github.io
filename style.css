@@ -21,7 +21,6 @@ main {
 
 nav{
 	grid-area: nav;
-	grid-row: 2;
 }
 
 h1,
@@ -103,7 +102,6 @@ ul > li {
 
 #name{
 	grid-area: spain;
-	grid-column: 1/-1;
 }
 
 #flag{
