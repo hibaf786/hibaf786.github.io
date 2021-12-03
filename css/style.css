@@ -14,6 +14,7 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
+	"header header nav"
 	"asiaMap northMap europeMap"
 	"asia north europe";
 }
@@ -103,6 +104,14 @@ tr:hover{
 
 ul > li {
 	list-style-type: circle;
+}
+
+header{
+	grid-area: header;
+}
+
+nav{
+	grid-area: nav;
 }
 
 nav ul{
