@@ -168,14 +168,16 @@ time{
 }
 
 .button{
-	background-color: rgb(240, 240, 240);
+	background-color: #ffffff;
   	border: none;
   	color: #000000;
-  	padding: 15px 32px;
+  	padding: 10px 24px;
+  	border-radius: 8px;
+  	border: 2px solid #1e90ff;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 16px;
+  	font-size: 14px;
   	margin: 4px 2px;
   	cursor: pointer;
 }
