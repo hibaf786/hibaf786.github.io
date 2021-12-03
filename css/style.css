@@ -15,7 +15,7 @@ main {
 	grid-gap: 20px;
 	grid-template-areas: 
 	"asiaMap northMap europeMap"
-	"europe north asia";
+	"asia north europe";
 }
 
 h1{
