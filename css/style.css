@@ -15,7 +15,7 @@ main {
 	grid-gap: 20px;
 	grid-template-areas: 
 	"flag introduction map"
-	"geography people government";
+	"europe north government";
 }
 
 h1{
@@ -125,12 +125,12 @@ time{
 	grid-area: map;
 }
 
-#geography{
-	grid-area: geography;
+#europe{
+	grid-area: europe;
 }
 
-#people{
-	grid-area: people;
+#north{
+	grid-area: north;
 }
 
 #government{
