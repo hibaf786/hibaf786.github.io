@@ -14,7 +14,7 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"asiaMap introduction europeMap"
+	"asiaMap northMap europeMap"
 	"europe north asia";
 }
 
@@ -113,8 +113,8 @@ time{
 	grid-area: asiaMap;
 }
 
-#introduction {
-  grid-area: introduction;
+#northMap{
+  grid-area: northMap;
 }
 
 #introduction h2 + p{
