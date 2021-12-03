@@ -14,7 +14,7 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"flag introduction europeMap"
+	"asiaMap introduction europeMap"
 	"europe north asia";
 }
 
@@ -109,8 +109,8 @@ time{
 	font-style: italic;
 }
 
-#flag{
-	grid-area: flag;
+#asiaMap{
+	grid-area: asiaMap;
 }
 
 #introduction {
