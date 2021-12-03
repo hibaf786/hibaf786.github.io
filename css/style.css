@@ -14,8 +14,8 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"flag introduction map"
-	"europe north government";
+	"flag introduction europeMap"
+	"europe north asia";
 }
 
 h1{
@@ -121,8 +121,8 @@ time{
   padding: 10px 20px;
 }
 
-#map{
-	grid-area: map;
+#europeMap{
+	grid-area: europeMap;
 }
 
 #europe{
@@ -133,8 +133,8 @@ time{
 	grid-area: north;
 }
 
-#government{
-	grid-area: government;
+#asia{
+	grid-area: asia;
 }
 
 .first {
