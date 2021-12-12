@@ -218,3 +218,7 @@ nav a:hover{
 #adventureThird{
 	grid-area: bottomLeft;
 }
+
+#editSize{
+  width: 50%;
+}
