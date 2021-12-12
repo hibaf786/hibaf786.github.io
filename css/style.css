@@ -13,8 +13,8 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
 	grid-template-areas: 
-	"asiaMap northMap europeMap"
-	"asia north europe";
+	"topLeft topMiddle topRight"
+	"bottomLeft bottomMiddle bottomRight";
 }
 
 h1{
@@ -142,14 +142,14 @@ nav a{
 nav a:hover{
 	background-color: #ddd;
 	color: black;
-
+}
 
 #asiaMap{
-	grid-area: asiaMap;
+	grid-area: topLeft;
 }
 
 #northMap{
-  grid-area: northMap;
+  grid-area: topMiddle;
 }
 
 #introduction h2 + p{
@@ -157,19 +157,19 @@ nav a:hover{
 }
 
 #europeMap{
-	grid-area: europeMap;
+	grid-area: topRight;
 }
 
 #europe{
-	grid-area: europe;
+	grid-area: bottomRight;
 }
 
 #north{
-	grid-area: north;
+	grid-area: bottomMiddle;
 }
 
 #asia{
-	grid-area: asia;
+	grid-area: bottomLeft;
 }
 
 .first {
