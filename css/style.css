@@ -194,3 +194,27 @@ nav a:hover{
 	background-color: #87cefa;
 	color: #ffffff;
 }
+
+#adventurePicFirst{
+	grid-area: topLeft;
+}
+
+#adventurePicSec{
+  grid-area: topMiddle;
+}
+
+#adventurePicThird{
+	grid-area: topRight;
+}
+
+#adventureFirst{
+	grid-area: bottomRight;
+}
+
+#adventureSec{
+	grid-area: bottomMiddle;
+}
+
+#adventureThird{
+	grid-area: bottomLeft;
+}
