@@ -147,6 +147,8 @@ nav a:hover{
 .firstPage{
 	background: url(/Users/hibafarhan/Documents/GitHub/hibaf786.github.io/images/sky.png) no-repeat center fixed;
 	background-size: cover;
+	display: block;
+	background-origin: border-box;
 }
 
 #asiaMap{
