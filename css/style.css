@@ -22,7 +22,7 @@ main {
 h1{
 	border-bottom: 1px solid grey;
 	border-top: 1px solid grey;
-	text-shadow:1px rgb(192,192,192);
+	text-shadow:1px 1px rgb(192,192,192);
 	padding-left: 550px;
 	color:#2B2D2F;
 }
@@ -72,7 +72,8 @@ figcaption {
 }
 
 img {
-  border: 2px solid #555;
+  border: 2px solid;
+  border-color: #555;
   border-radius: 4px;
   padding: 5px;
   width: 80%;
@@ -83,13 +84,12 @@ a:link{
 	color: rgb(0, 0, 255);
 }
 
-/*a:visited {
-	color: rgb(128, 0, 128);
-}*/
+a:visited {
+	color: rgba(255, 255, 255, 0.9);
+}
 
 a:hover {
 	color: rgb(255, 0, 0);
-	/*text-decoration: underline;*/
 }
 
 a:active {
@@ -194,51 +194,18 @@ nav a:hover{
 #introHeader h5{
 	font-size: 20px;
 	font-weight: lighter;
-	text-shadow: 1px rgb(192,192,192);
+	text-shadow: 1px 1px rgb(192,192,192);
 	max-width: 900px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	color:white;
+	color:rgb(255,255,255);
 }
 
 #introHeader a{
 	margin-left: 600px;
 }
 
-.first {
-  padding-left: 15px;
-}
-
-.buttonCountry{
-  	color: #2B2D2F;
-  	padding: 10px 24px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 14px;
-  	margin-left: 70px;
-  	cursor: pointer;
-  	margin-top: 10px;
-  	background-color: white;
-  	transition: all 0.3s ease-out;
-  	}
-.buttonCountry:hover{
-	background-color: #2B2D2F;
-	color: white;
-}
-
-.firstPage{
-background: url(../images/sky.png) no-repeat center fixed;
-	background-size: cover;
-	display: block;
-	background-origin: border-box;
-}
-
-.homeFooter{
-	margin-top: 190px;
-	color: white;
-}
 
 #adventurePicFirst{
 	grid-area: topLeft;
@@ -320,4 +287,38 @@ background: url(../images/sky.png) no-repeat center fixed;
 #chicagoSize{
   width: 60%;
   margin-left: 90px;
+}
+
+.first {
+  padding-left: 15px;
+}
+
+.buttonCountry{
+  	color: #2B2D2F;
+  	padding: 10px 24px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	margin-left: 70px;
+  	cursor: pointer;
+  	margin-top: 10px;
+  	background-color: rgb(255,255,255);
+  	transition: all 0.3s ease-out;
+  	}
+.buttonCountry:hover{
+	background-color: #2B2D2F;
+	color: rgb(255,255,255);
+}
+
+.firstPage{
+background: url(../images/sky.png) no-repeat center fixed;
+	background-size: cover;
+	display: block;
+	background-origin: border-box;
+}
+
+.homeFooter{
+	margin-top: 190px;
+	color: rgb(255,255,255);
 }
