@@ -172,11 +172,44 @@ nav a:hover{
 	grid-area: bottomLeft;
 }
 
+#introHeader h1{
+	border-bottom: none;
+	border-top: none;
+	font-size: 60px;
+	text-shadow: .2em .2em .3em rgb(192,192,192);
+	padding-left: 250px;
+	margin-top: 250px;
+}
+
+#introHeader h5{
+	font-size: 20px;
+	text-shadow: .2em .2em .3em rgb(192,192,192);
+	margin-left: 300px;
+}
+
+#introHeader a{
+	margin-left: 600px;
+}
+
 .first {
   padding-left: 15px;
 }
 
 .buttonCountry{
+  	color: #000000;
+  	padding: 10px 24px;
+  	border-radius: 8px;
+  	border: 2px solid #1e90ff;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	transition-duration: 0.5s;
+}
+
+.buttonIntro{
   	color: #000000;
   	padding: 10px 24px;
   	border-radius: 8px;
