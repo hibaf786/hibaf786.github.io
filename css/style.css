@@ -145,10 +145,8 @@ nav a:hover{
 }
 
 .firstPage{
-	background-image: radial-gradient(blue, white);
-	background: url(back.png);
-	
-
+	background: url(/Users/hibafarhan/Documents/GitHub/hibaf786.github.io/back.png);
+	background-size: cover;
 }
 
 #asiaMap{
