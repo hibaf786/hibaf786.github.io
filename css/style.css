@@ -65,6 +65,7 @@ figcaption {
   font-style: italic;
   text-decoration: underline;
   text-align: left;
+  margin-left: 55px;
 }
 
 img {
@@ -255,36 +256,58 @@ nav a:hover{
 
 #hunzaSize{
   width: 40%;
+  margin-left: 100px;
 }
 
 #lahoreSize{
   width: 50%;
+  margin-left: 80px;
+}
+
+#colomboSize{
+  margin-left: 50px;
+}
+
+#foodSize{
+  margin-left: 50px;
 }
 
 #greeceSize{
   width: 35%;
+  margin-left: 90px;
 }
 
 #turkeySize{
   width: 37%;
+  margin-left: 90px;
 }
 
 #parisSize{
   width: 37%;
+  margin-left: 90px;
 }
 
 #beachSize{
   width: 50%;
+  margin-left: 90px;
 }
 
 #caboSize{
   width: 40%;
+  margin-left: 90px;
+}
+
+#nycSize{
+  width: 55%;
+  margin-left: 90px;
 }
 
 #miamiSize{
   width: 50%;
+  margin-left: 90px;
 }
 
 #chicagoSize{
   width: 60%;
+  margin-left: 90px;
 }
