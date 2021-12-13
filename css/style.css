@@ -144,8 +144,11 @@ nav a:hover{
 	color: black;
 }
 
-#firstPage{
-	background-image: ../images/back.png;
+.firstPage{
+	background-image: radial-gradient(blue, white);
+	background: url(back.png);
+	
+
 }
 
 #asiaMap{
