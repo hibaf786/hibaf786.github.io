@@ -219,6 +219,10 @@ nav a:hover{
 	grid-area: bottomLeft;
 }
 
-#editSize{
+#hunzaSize{
+  width: 50%;
+}
+
+#lahoreSize{
   width: 50%;
 }
