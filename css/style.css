@@ -22,8 +22,9 @@ main {
 h1{
 	border-bottom: 1px solid grey;
 	border-top: 1px solid grey;
-	text-shadow: .2em .2em .3em rgb(192,192,192);
+	text-shadow:1px rgb(192,192,192);
 	padding-left: 550px;
+	color:#2B2D2F;
 }
 
 h1,
@@ -36,10 +37,10 @@ h2 {
 h2,
 h3{
 	border: 6px solid rgb(192,192,192);
-	text-shadow: -1px -1px 1px #ccc;
 	padding-left: 100px;
 	margin-top: 0;
 	border-radius: 5px;
+	color:#2B2D2F;
 }
 
 p {
@@ -82,13 +83,13 @@ a:link{
 	color: rgb(0, 0, 255);
 }
 
-a:visited {
+/*a:visited {
 	color: rgb(128, 0, 128);
-}
+}*/
 
 a:hover {
 	color: rgb(255, 0, 0);
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 a:active {
@@ -102,9 +103,14 @@ table {
 th, td{
 	height: 30px;
 	text-align: left;
-	background-color: rgba(255, 0, 0, 0.3);
+	background-color: #d2d7d3;
 	padding: 15px;
 }
+
+th{
+	color:#2B2D2F;
+}
+
 
 tr:hover{
 	background-color: rgb(255, 0, 0);
@@ -124,7 +130,7 @@ nav ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgba(180, 180, 180, 0.6);
+	background-color: #2B2D2F;
 }
 
 nav li{
@@ -182,12 +188,18 @@ nav a:hover{
 	text-shadow: .2em .2em .3em rgb(192,192,192);
 	padding-left: 250px;
 	margin-top: 250px;
+	margin-bottom: 0;
 }
 
 #introHeader h5{
 	font-size: 20px;
-	text-shadow: .2em .2em .3em rgb(192,192,192);
-	margin-left: 300px;
+	font-weight: lighter;
+	text-shadow: 1px rgb(192,192,192);
+	max-width: 900px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
 }
 
 #introHeader a{
@@ -199,33 +211,21 @@ nav a:hover{
 }
 
 .buttonCountry{
-  	color: #000000;
+  	color: #2B2D2F;
   	padding: 10px 24px;
-  	border-radius: 8px;
-  	border: 2px solid #1e90ff;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
   	font-size: 14px;
   	margin-left: 70px;
   	cursor: pointer;
-  	transition-duration: 0.5s;
   	margin-top: 10px;
-}
-
-.buttonHome{
-  	color: #000000;
-  	padding: 10px 24px;
-  	border-radius: 8px;
-  	border: 2px solid #1e90ff;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 14px;
-  	margin: 4px 2px;
-  	cursor: pointer;
-  	transition-duration: 0.5s;
   	background-color: white;
+  	transition: all 0.3s ease-out;
+  	}
+.buttonCountry:hover{
+	background-color: #2B2D2F;
+	color: white;
 }
 
 .firstPage{
