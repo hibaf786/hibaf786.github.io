@@ -145,13 +145,6 @@ nav a:hover{
 	color: black;
 }
 
-.firstPage{
-background: url(../images/sky.png) no-repeat center fixed;
-	background-size: cover;
-	display: block;
-	background-origin: border-box;
-}
-
 #asiaMap{
 	grid-area: topLeft;
 }
@@ -233,6 +226,17 @@ background: url(../images/sky.png) no-repeat center fixed;
   	background-color: white;
 }
 
+.firstPage{
+background: url(../images/sky.png) no-repeat center fixed;
+	background-size: cover;
+	display: block;
+	background-origin: border-box;
+}
+
+.homeFooter{
+	margin-top: 160px;
+	color: white;
+}
 
 #adventurePicFirst{
 	grid-area: topLeft;
