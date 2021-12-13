@@ -176,7 +176,7 @@ nav a:hover{
   padding-left: 15px;
 }
 
-.button{
+.buttonCountry{
   	color: #000000;
   	padding: 10px 24px;
   	border-radius: 8px;
@@ -190,10 +190,6 @@ nav a:hover{
   	transition-duration: 0.5s;
 }
 
-.button:hover{
-	background-color: #87cefa;
-	color: #ffffff;
-}
 
 #adventurePicFirst{
 	grid-area: topLeft;
