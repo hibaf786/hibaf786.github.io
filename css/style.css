@@ -112,11 +112,6 @@ th{
 	color:#2B2D2F;
 }
 
-
-tr:hover{
-	background-color: rgb(255, 0, 0);
-}
-
 ul > li {
 	list-style-type: circle;
 }
