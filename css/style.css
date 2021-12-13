@@ -228,11 +228,11 @@ nav a:hover{
 }
 
 #turkeySize{
-  width: 50%;
+  width: 35%;
 }
 
 #parisSize{
-  width: 50%;
+  width: 35%;
 }
 
 #beachSize{
@@ -245,4 +245,8 @@ nav a:hover{
 
 #miamiSize{
   width: 50%;
+}
+
+#chicagoSize{
+  width: 60%;
 }
